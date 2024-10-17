@@ -23,4 +23,7 @@
     </bean>
 
     <bean id="movieRecommenderV2" class="br.com.ideao.annotationconfig.domain.MovieRecommenderV2" />
+
+    <bean id="movieRecommenderV3" class="br.com.ideao.annotationconfig.domain.MovieRecommenderV3" />
+
 </beans>
