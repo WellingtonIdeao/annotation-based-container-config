@@ -33,7 +33,8 @@ public class App
         MovieRecommenderV6 movieRecommenderV6 = context.getBean("movieRecommenderV6", MovieRecommenderV6.class);
         System.out.println(movieRecommenderV6);
 
-
+        SimpleMovieLister2 simpleMovieLister2 = context.getBean("simpleMovieLister2", SimpleMovieLister2.class);
+        System.out.println(simpleMovieLister2);
 
         context.registerShutdownHook();
     }
