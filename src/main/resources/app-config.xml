@@ -34,4 +34,7 @@
 
     <bean id="simpleMovieLister2" class="br.com.ideao.annotationconfig.domain.SimpleMovieLister2" />
 
+    <bean id="appConfig" class="br.com.ideao.annotationconfig.config.AppConfig"/>
+
+    <bean id="movieRecommenderV7" class="br.com.ideao.annotationconfig.domain.MovieRecommenderV7" />
 </beans>
