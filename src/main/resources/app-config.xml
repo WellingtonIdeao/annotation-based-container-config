@@ -30,4 +30,6 @@
 
     <bean id="movieRecommenderV5" class="br.com.ideao.annotationconfig.domain.MovieRecommenderV5" />
 
+    <bean id="movieRecommenderV6" class="br.com.ideao.annotationconfig.domain.MovieRecommenderV6" />
+
 </beans>
