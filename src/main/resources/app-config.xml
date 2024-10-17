@@ -10,4 +10,9 @@
     <context:annotation-config/>
     <bean id="movieRecommender" class="br.com.ideao.annotationconfig.domain.MovieRecommender" />
     <bean id="customerPreferenceDao" class="br.com.ideao.annotationconfig.repository.CustomerPreferenceDao" />
+
+    <bean id="simpleMovieLister" class="br.com.ideao.annotationconfig.domain.SimpleMovieLister" />
+    <bean id="movieFinder" class="br.com.ideao.annotationconfig.domain.MovieFinder">
+        <property name="name" value="movie finder"/>
+    </bean>
 </beans>
