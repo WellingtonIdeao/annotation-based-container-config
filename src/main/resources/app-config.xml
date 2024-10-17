@@ -9,10 +9,18 @@
 
     <context:annotation-config/>
     <bean id="movieRecommender" class="br.com.ideao.annotationconfig.domain.MovieRecommender" />
-    <bean id="customerPreferenceDao" class="br.com.ideao.annotationconfig.repository.CustomerPreferenceDao" />
+    <bean id="customerPreferenceDao" class="br.com.ideao.annotationconfig.repository.CustomerPreferenceDao" >
+        <property name="name" value="customer Preference Dao"/>
+    </bean>
 
     <bean id="simpleMovieLister" class="br.com.ideao.annotationconfig.domain.SimpleMovieLister" />
     <bean id="movieFinder" class="br.com.ideao.annotationconfig.domain.MovieFinder">
         <property name="name" value="movie finder"/>
     </bean>
+
+    <bean id="movieCatalog" class="br.com.ideao.annotationconfig.domain.MovieCatalog">
+        <property name="name" value="movie catalog"/>
+    </bean>
+
+    <bean id="movieRecommenderV2" class="br.com.ideao.annotationconfig.domain.MovieRecommenderV2" />
 </beans>

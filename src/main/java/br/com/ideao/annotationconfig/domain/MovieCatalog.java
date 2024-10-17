@@ -1,6 +1,6 @@
-package br.com.ideao.annotationconfig.repository;
+package br.com.ideao.annotationconfig.domain;
 
-public class CustomerPreferenceDao {
+public class MovieCatalog {
 
     private String name;
 
@@ -10,7 +10,7 @@ public class CustomerPreferenceDao {
 
     @Override
     public String toString() {
-        return "CustomerPreferenceDao{" +
+        return "MovieCatalog{" +
                 "name='" + name + '\'' +
                 '}';
     }
